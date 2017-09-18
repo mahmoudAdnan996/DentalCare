@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dental.mahmoud.adnan.dental">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".Register"
+            android:label="Register"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dental.mahmoud.adnan.dental.Login"/>
+            </activity>
+        <activity
+            android:name=".Diagnose"
+            android:label="@string/title_activity_diagnose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DiseaseDiscription"
+            android:label="Discription"
+            android:parentActivityName=".Diagnose">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dental.mahmoud.adnan.dental.Diagnose"/>
+        </activity>
+    </application>
+
+</manifest>

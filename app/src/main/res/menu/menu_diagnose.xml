@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dental.mahmoud.adnan.dental.Diagnose">
+
+    <item
+        android:id="@+id/Diagnose_logout"
+        android:title="Log out"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/profile_icon"
+        android:icon="@drawable/client"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction,MenuTitle" />
+</menu>

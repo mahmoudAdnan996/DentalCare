@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/as_admin" android:title="As Admin"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/as_user"
+        android:icon="@drawable/person"
+        android:title="As User"
+        tools:ignore="HardcodedText" />
+
+
+</menu>
